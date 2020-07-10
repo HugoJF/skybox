@@ -30,6 +30,7 @@ jobs:
     - name: Prepare files for artifact
       run: |
         mkdir artifact
+        mv configs artifact
         mv plugins artifact
         mv scripting artifact
         mv skybox artifact
